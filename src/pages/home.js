@@ -7,7 +7,7 @@ function Home(props) {
         <>
 
 
-            <div className="w-full   p-5 flex flex-row gap-5">
+            <div className="w-full max-[624px]:p-2  p-5 flex flex-row gap-5 max-[924px]:flex-col max-[924px]:flex-col-reverse">
 
                 <div className="flex gap-5 flex-col">
                     <iframe
@@ -18,7 +18,7 @@ function Home(props) {
                 </div>
                 <div className=" h-auto w-full">
 
-                    <img src={ISPSC} alt="" className="h-full  rounded-xl"/>
+                    <img src={ISPSC} alt="" className="h-full  rounded-xl bg-main"/>
                 </div>
 
 
@@ -27,26 +27,27 @@ function Home(props) {
             <div className="w-full  p-5 flex flex-col  gap-5">
 
 
-                <div className="w-full p-5 flex gap-5 ">
+                <div className="w-full p-5 flex gap-5  max-[650px]:flex-col max-[650px]:p-0">
                     <Quicklinks/>
                     <div className="w-full h-auto  flex flex-col place-items-center p-5 ">
 
-                        <h1 className="text-2xl font-bold text-slate-700  opacity-70 tracking -wide ">Welcome to Ilocos
+                        <h1 className="text-2xl font-bold text-slate-700  opacity-70 tracking -wide max-[650px]:text-center ">Welcome to Ilocos
                             Sur Polytechnic State College</h1>
 
                         <p className="font-semibold text-slate-700 tracking-wide opacity-70 text-xl mb-10">Departments</p>
-                        <div className="grid grid-cols- w-full h-full gap-2 grid-cols-3">
-                            <div className="department-card  h-full row-start-1 col-start-1 ">
+
+                        <div className="grid grid-cols- w-full h-full gap-2 grid-cols-3  ">
+                            <div className="department-card  h-full row-start-1 col-start-1 max-[700px]:col-end-4 ">
                                 <h1 className="text-xl font-bold text-slate-700  opacity-70 tracking-wide">   CBME </h1>
                                 <p className="font-thin">The College of Business and Management Education</p>
                             </div>
-                            <div className="department-card  h-full  row-start-1 col-start-2  ">
+                            <div className="department-card  h-full  row-start-1 max-[700px]:col-start-1 col-start-2 max-[700px]:row-start-2 max-[700px]:col-end-4  ">
 
                                 <h1 className="text-xl font-bold text-slate-700  opacity-70 tracking-wide">   CAS </h1>
                                 <p className="font-thin">The College of Arts and Sciences</p>
 
                             </div>
-                            <div className="department-card  h-full col-start-3 row-start-1 ">
+                            <div className="department-card  h-full  max-[700px]:col-start-1 col-start-3 row-start-1 max-[700px]:row-start-3  max-[700px]:col-end-4 ">
                             <h1 className="text-xl font-bold text-slate-700  opacity-70 tracking-wide"> CTE </h1>
                                 <p className="font-thin text-slate-700">College of Teacher Education</p>
                             </div>

@@ -7,7 +7,7 @@ function Quicklinks(props) {
         <>
 
 
-            <div className="  px-5 w-[500px]  bg-[#F9FAFB] p-10 shadow-xl rounded-xl">
+            <div className="  px-5 w-auto   bg-[#F9FAFB] p-10 shadow-xl rounded-xl">
                 <h1 className="bg-red-900/90 text-center p-3 text-md text-white font-medium rounded-sm">Announcements</h1>
                 <p className="p-2 font-thin text-slate-800 ">⦿ 2023-11-08: Midterm Exam <br/> (November
                     8 to 11, 2023)</p>

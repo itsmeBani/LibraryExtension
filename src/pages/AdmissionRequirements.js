@@ -9,7 +9,7 @@ function AdmissionRequirements(props){
                 Requirements
             </h1>
 
-            <div className="grid grid-cols-3  max-md:grid-cols-1 place-items-center px-36 gap-5 ">
+            <div className="grid grid-cols-3  max-md:grid-cols-1 place-items-center px-36 gap-5  max-[733px]:px-3   ">
                 {          ADMISSION_REQUIREMENTS.map((data,i) =>
                     (
                         <div className="shadow-xl w-full h-full relative rounded-xl p-5" i>

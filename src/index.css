@@ -31,3 +31,12 @@ font-weight: 600;
     @apply w-full  h-full  p-10 rounded-xl shadow-2xl;
 
 }
+
+.bg-image{
+
+    background-image: url("./images/wc.jpg") ;
+    background-repeat: no-repeat;
+
+
+}
+

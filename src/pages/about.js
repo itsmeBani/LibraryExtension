@@ -8,7 +8,7 @@ function About(props) {
 
     return (
         <>
-        <div className="w-full h-auto   p-10 px-10 gap-10  flex ">
+        <div className="w-full h-auto   p-10 px-10 gap-10  flex max-[700px]:flex-col max-[700px]:p-2 ">
             <Quicklinks/>
             <div className="w-full  flex ">
                 <Card title="BRIEF HISTORY" description="  Tagudin Campus is the seat of governance in the South Cluster. It was known formerly as the
@@ -25,8 +25,8 @@ function About(props) {
 
         </div>
 
-            <div className="w-full h-auto    px-10 gap-10  flex flex-col">
-                     <div className=" w-full   h-full gap-5 flex h-auto">
+            <div className="w-full h-auto    px-10 gap-10  flex flex-col max-[700px]:flex-col max-[700px]:p-2">
+                     <div className=" w-full   h-full gap-5 flex max-[700px]:flex-col max-[700px]:p-2 h-auto">
 
 
                          <Card  title="VISION" description="A vibrant and nurturing Polytechnic Service College for transforming lives and communities"/>
@@ -37,7 +37,7 @@ function About(props) {
 
                      </div>
 
-                <div className=" w-full pb-10  h-full gap-5 flex h-auto">
+                <div className=" w-full pb-10  h-full gap-5 flex max-[700px]:flex-col max-[700px]:p-2 h-auto">
 
                     <div className="w-full px-10 py-20  shadow-xl rounded-xl">
                         <h1 className="text-xl text-slate-800 opacity-70 font-bold mb-3">Goals and Objectives</h1>
