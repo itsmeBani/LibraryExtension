@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-text{
+    @apply  text-xl  text-slate-800 font-sans font-thin italic text-white antialiased tracking-tight;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-family{
+
+
+    font-family:Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-weight: 600;
+
+    letter-spacing: -0.025em;
+
+}
+
+.footer-text {
+    @apply text-slate-800 font-sans tracking-wide font-normal opacity-90 text-white antialiased tracking-tight;
+
+}
+.contacs-p{
+    @apply text-slate-800 opacity-90 font-normal gap-3  flex place-items-center;
+
+}
+
+.department-card{
+    @apply w-full  h-full  p-10 rounded-xl shadow-2xl;
+
 }
