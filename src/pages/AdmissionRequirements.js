@@ -12,7 +12,7 @@ function AdmissionRequirements(props){
             <div className="grid grid-cols-3  max-md:grid-cols-1 place-items-center px-36 gap-5  max-[733px]:px-3   ">
                 {          ADMISSION_REQUIREMENTS.map((data,i) =>
                     (
-                        <div className="shadow-xl w-full h-full relative rounded-xl p-5" i>
+                        <div className="shadow-xl w-full h-full relative rounded-xl p-5" >
                             <h1 className=" font-extrabold  text-slate-800 tracking-[0.01rem] leading-6 opacity-70 text-lg pb-2">{data.title}</h1>
                             {data.requirments.map((data)=>(
                                 <p className=" text-slate-600 ">{data}</p>

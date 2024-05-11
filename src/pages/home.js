@@ -1,22 +1,40 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ISPSC from "../images/wc.jpg"
+import b from "../images/3-Story Building-LHS.jpg"
 import Quicklinks from "../components/quicklinks";
 
 function Home(props) {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const images = [ISPSC,b]; // Add more images here if needed
+
+    const prevSlide = () => {
+        const newIndex = (currentIndex - 1 + images.length) % images.length;
+        setCurrentIndex(newIndex);
+    };
+
+    const nextSlide = () => {
+        const newIndex = (currentIndex + 1) % images.length;
+        setCurrentIndex(newIndex);
+    };
     return (
         <>
 
 
             <div className="w-full max-[624px]:p-0  p-0 flex flex-row gap-5 max-[924px]:flex-col max-[924px]:flex-col-reverse">
 
-                <div className=" h-auto w-full">
+                <div className=" h-full w-full">
 
-                    <img src={ISPSC} alt="" className="h-full   bg-main w-full"/>
+                    <div className="h-full">
+                        <img src={images[currentIndex]} alt="" className="w-full h-full" />
+                    </div>
+
+
                 </div>
 
 
-
             </div>
+            {/*<button onClick={nextSlide}>Next</button>*/}
+            {/*<button onClick={prevSlide}>Prev</button>*/}
             <div className="px-20  max-[800px]:px-2 max-[800px]:pb-3">
                 <h1 className="text-2xl  max-[900px]:text-xs font-bold text-slate-900 text-center pt-6  opacity-90 tracking ">Welcome to <span className="text-yellow-400 opacity-100">Ilocos Sur Polytechnic State College!</span> Get ready for an exciting journey of learning, innovation, and endless opportunities. Let's unlock your potential together</h1>
             </div>
