@@ -44,7 +44,7 @@ function Home(props) {
                                 <h1 className="text-xl font-bold text-slate-700  opacity-70 tracking-wide">   CBME </h1>
                                 <p className="font-thin">The College of Business and Management Education</p>
                             </div>
-                            <div className="department-card  h-full  row-start-1 max-[700px]:col-start-1 col-start-2 max-[700px]:p-4 max-[700px]:row-start-2 max-[700px]:col-end-4  ">
+                            <div className="department-card   h-full  row-start-1 max-[700px]:col-start-1 col-start-2 max-[700px]:p-4 max-[700px]:row-start-2 max-[700px]:col-end-4  ">
 
                                 <h1 className="text-xl font-bold text-slate-700  opacity-70 tracking-wide">   CAS </h1>
                                 <p className="font-thin">The College of Arts and Sciences</p>
