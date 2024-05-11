@@ -4,39 +4,31 @@
 @tailwind components;
 @tailwind utilities;
 
-.header-text{
-    @apply  text-xl  text-slate-800 font-sans font-thin italic text-white antialiased tracking-tight;
+
+
+.header-text {
+    @apply text-xl text-slate-800 font-sans font-thin italic text-white antialiased tracking-tight;
 }
 
-.font-family{
-
-
-    font-family:Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-font-weight: 600;
-
+.font-family {
+    font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
     letter-spacing: -0.025em;
-
 }
 
 .footer-text {
     @apply text-slate-800 font-sans tracking-wide font-normal opacity-90 text-white antialiased tracking-tight;
-
-}
-.contacs-p{
-    @apply text-slate-800 opacity-90 font-normal gap-3  flex place-items-center;
-
 }
 
-.department-card{
-    @apply w-full  h-full  p-10 rounded-xl shadow-2xl;
-
+.contacts-p {
+    @apply text-slate-800 opacity-90 font-normal gap-3 flex place-items-center;
 }
 
-.bg-image{
+.department-card {
+    @apply w-full h-full p-10 rounded-xl shadow-2xl;
+}
 
-    background-image: url("./images/wc.jpg") ;
+.bg-image {
+    background-image: url("./images/wc.jpg");
     background-repeat: no-repeat;
-
-
 }
-

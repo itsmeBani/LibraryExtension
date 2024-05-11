@@ -9,54 +9,59 @@ import Github from "../images/github.png"
 import Quicklinks from "../components/quicklinks";
 
 function Contacts(props) {
+
+
+    const  styles = "contacs-p flex gap-2 place-items-center"
     return (
         <>
             <div className="w-full   p-10 px-10 gap-10  flex ">
 
+            <div>
                 <Quicklinks/>
+            </div>
 
-                <div className=" grid grid-cols-2 grid-rows-2 w-full     gap-3">
+                <div className=" grid grid-cols-2 grid-rows-2 w-full      gap-3">
 
-                    <div className="bg-[#F9FAFB] p-10 shadow-xl  rounded-xl h-auto">
+                    <div className="bg-[#F9FAFB] flex-col flex  gap-2 p-10 shadow-xl  rounded-xl h-auto">
                         <h1 className="text-xl text-slate-700 font-thin opacity-70  mb-3 ">General Contact
                             Information</h1>
-                        <p className=" contacs-p"><img src={Call} alt="" className="h-5 opacity-60"/> 077-674-1474</p>
-                        <p className=" contacs-p"><img src={Email} alt="" className="h-5 opacity-60"/> <a
+                        <p className={styles}><img src={Call} alt="" className="h-5 opacity-60"/> 077-674-1474</p>
+                        <p className={styles}><img src={Email} alt="" className="h-5 opacity-60"/> <a
                             href="mailto:ispsctagudin@yahoo.com"
                             className="text-blue-500 hover:text-blue-900">ispsctagudin@yahoo.com</a></p>
-                        <p className="contacs-p"><img src={Home} alt="" className="h-5 opacity-60"/> Quirino, Tagudin,
+                        <p className={styles}><img src={Home} alt="" className="h-5 opacity-60"/> Quirino, Tagudin,
                             Ilocos Sur </p>
 
 
                     </div>
-                    <div className="bg-[#F9FAFB] p-10 shadow-xl flex flex-col  rounded-xl h-auto ">
+                    <div className="bg-[#F9FAFB] p-10 shadow-xl flex flex-col gap-2  rounded-xl h-auto ">
                         <h1 className="text-xl text-slate-800 opacity-70 font-thin mb-3 ">Office Of The President</h1>
-                        <p className=" contacs-p"><img src={Call} alt="" className="h-5 opacity-60"/> (077) 732-5512</p>
-                        <p className=" contacs-p"><img src={Email} alt="" className="h-5 opacity-60"/> <a
+                        <p className={styles}><img src={Call} alt="" className="h-5 opacity-60"/> (077) 732-5512</p>
+                        <p className={styles}><img src={Email} alt="" className="h-5 opacity-60"/> <a
                             href="mailto:ispsc_2705@yahoo.com"
                             className="text-blue-500 hover:text-blue-900">ispsc_2705@yahoo.com</a></p>
 
                     </div>
-                    <div className="bg-[#F9FAFB] p-10 shadow-xl rounded-xl w-full ">
+                    <div className="bg-[#F9FAFB] p-10 shadow-xl flex-col flex  gap-2  rounded-xl w-full ">
                         <h1 className="text-xl text-slate-800 opacity-70 font-thin mb-3 ">Registrar</h1>
-                        <p className=" contacs-p"><img src={Call} alt="" className="h-5 opacity-60"/> 09306166132</p>
-                        <p className=" contacs-p"><img src={Email} alt="" className="h-5 opacity-60"/> <a
+                        <p className={styles}><img src={Call} alt="" className="h-5 opacity-60"/> 09306166132</p>
+                        <p className={styles}><img src={Email} alt="" className="h-5 opacity-60"/> <a
                             href="mailto:registrarispsc@yahoo.com"
                             className="text-blue-500 hover:text-blue-900 ">registrarispsc@yahoo.com</a></p>
-                        <p className="contacs-p"><img src={Messenger} alt="" className="h-5 opacity-60"/> <a
+                        <p className={styles}><img src={Messenger} alt="" className="h-5 opacity-60"/> <a
                             href="https://www.messenger.com/t/1846888500" className="text-blue-500 hover:text-blue-900">Liam
                             Pedro</a></p>
 
                     </div>
-                    <div className="bg-[#F9FAFB] p-10 shadow-xl rounded-xl  w-full ">
+                    <div className="bg-[#F9FAFB] p-10 shadow-xl flex-col flex  gap-2  rounded-xl  w-full ">
                         <h1 className="text-xl text-slate-800 opacity-70 font-thin mb-3 ">Developer</h1>
-                        <p className=" contacs-p"><img src={Call} alt="" className="h-5 opacity-60"/>09107645918</p>
-                        <p className=" contacs-p"><img src={Email} alt="" className="h-5 opacity-60"/> <a
+                        <p className={styles}><img src={Call} alt="" className="h-5 opacity-60"/>09107645918</p>
+                        <p className={styles}><img src={Email} alt="" className="h-5 opacity-60"/> <a
                             href="mailto:fabrojiovani1@gmail.com"
                             className="text-blue-500 hover:text-blue-900 ">fabrojiovani1@gmail.com</a></p>
-                        <p className="contacs-p"><img src={Messenger} alt="" className="h-5 opacity-60"/> <a
+                        <p className={styles}><img src={Messenger} alt="" className="h-5 opacity-60"/> <a
                             href="https://www.messenger.com/t/100018577027263" className="text-blue-500 hover:text-blue-900">https://www.messenger.com/t/100018577027263</a></p>
-                        <p className="contacs-p"><img src={Github} alt="" className="h-5 opacity-60"/> <a
+                        <p className={styles}><img src={Github} alt="" className="h-5 opacity-60"/> <a
                             href="https://github.com/Bani69" className="text-blue-500 hover:text-blue-900">https://github.com/Bani69</a></p>
 
                     </div>
