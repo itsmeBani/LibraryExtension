@@ -25,7 +25,7 @@ function About(props) {
 
         </div>
 
-            <div className="w-full h-auto    px-10 gap-10  flex flex-col max-[700px]:flex-col max-[700px]:p-2">
+            <div className="w-full h-auto    px-10 gap-10 max-[700px]:gap-3 flex flex-col max-[700px]:flex-col max-[700px]:p-2">
                      <div className=" w-full   h-full gap-5 flex max-[700px]:flex-col max-[700px]:p-2 h-auto">
 
 
@@ -37,9 +37,9 @@ function About(props) {
 
                      </div>
 
-                <div className=" w-full pb-10  h-full gap-5 flex max-[700px]:flex-col max-[700px]:p-2 h-auto">
+                <div className=" w-full pb-10  h-full gap-5 flex max-[700px]:flex-col max-[700px]:p-2 h-auto ">
 
-                    <div className="w-full px-10 py-20  shadow-xl rounded-xl">
+                    <div className="w-full px-10 py-20  shadow-xl rounded-xl max-[700px]:p-4" >
                         <h1 className="text-xl text-slate-800 opacity-70 font-bold mb-3">Goals and Objectives</h1>
                         <p className="font-thin leading-7 w-full">
                             ⦿ To make the college responsive and relevant to the individual and social needs for optimum human development.
@@ -55,7 +55,7 @@ function About(props) {
 
                     </div>
 
-                    <div className="w-full px-10 py-20  shadow-xl rounded-xl">
+                    <div className="w-full px-10 py-20 max-[700px]:p-4  shadow-xl rounded-xl">
                         <h1 className="text-xl text-slate-800 opacity-70 font-bold mb-3">Core Values</h1>
                         <p className="font-thin leading-7 py-1 w-full"> <span className="text-amber-300 font-bold text-2xl p-1 mt-2">P</span>roductivity - The delivery of quality programs in instruction, research, extension, production, and development of responsive, proactive professionals and graduates and professing determination and hard work in the system.</p>
                         <p className="font-thin leading-7 py-1 w-full"> <span className="text-amber-300 font-bold text-2xl p-1 mt-2">R</span>esiliency - Refers to the renewal and motivational strategies, looking at the bright side of academic life and cultivating positive attitudes amidst failures and adversities.</p>
@@ -85,7 +85,7 @@ function Card(props) {
     const {title,description}=props
     return (
 
-        <div className="w-full px-10 py-20  shadow-xl rounded-xl">
+        <div className="w-full px-10 py-20 max-[700px]:p-4 shadow-xl rounded-xl">
             <h1 className="text-xl text-slate-800 opacity-70 font-bold mb-3">{title}</h1>
             <p className="font-thin leading-7 w-full">
                 {description}</p>
