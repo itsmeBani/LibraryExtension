@@ -5,8 +5,8 @@ function AdmissionRequirements(props){
 
     return (
         <div className=" flex flex-col gap-7 pb-10  pt-10" id="adm">
-            <h1 className=" opacity-70 text-shadow-md font-extrabold text-5xl sm:text-5xl lg:text-5xl tracking-tight text-center text-pretty "  id='ar'>Admission
-                Requirements
+            <h1 className=" max-[600px]:text-xl opacity-70 text-shadow-md font-extrabold text-5xl sm:text-5xl lg:text-5xl tracking-tight text-center text-pretty ">
+            Requirements
             </h1>
 
             <div className="grid grid-cols-3  max-md:grid-cols-1 place-items-center px-36 gap-5  max-[733px]:px-3   ">

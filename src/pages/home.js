@@ -20,12 +20,14 @@ function Home(props) {
         <>
 
 
-            <div className="w-full max-[624px]:p-0  p-0 flex flex-row gap-5 max-[924px]:flex-col max-[924px]:flex-col-reverse">
+            <div className="w-full max-[624px]:p-0 p-0 flex flex-row gap-5 max-[924px]:flex-col max-[924px]:flex-col-reverse">
 
                 <div className=" h-full w-full">
 
-                    <div className="h-full">
-                        <img src={images[currentIndex]} alt="" className="w-full h-full" />
+                    <div className="h-[90%]  relative  ">
+                        <img src={images[currentIndex]} alt="" className="w-full aspect-[5/2]" />
+                        <button onClick={nextSlide}>Next</button>
+                        <button onClick={prevSlide}>Prev</button>
                     </div>
 
 
@@ -57,7 +59,7 @@ function Home(props) {
 
                         <p className="font-semibold text-slate-700 tracking-wide opacity-70 text-xl mb-10">Departments</p>
 
-                        <div className="grid grid-cols- w-full h-full gap-2 grid-cols-3  ">
+                        <div className="grid grid-cols- w-full h-auto gap-2 grid-cols-3  ">
                             <div className="department-card  h-full row-start-1 col-start-1 max-[700px]:col-end-4 max-[700px]:p-4">
                                 <h1 className="text-xl font-bold text-slate-700  opacity-70 tracking-wide">   CBME </h1>
                                 <p className="font-thin">The College of Business and Management Education</p>

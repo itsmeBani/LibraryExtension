@@ -2,8 +2,6 @@ import React from 'react';
 import "../index.css"
 
 import { ENROLLMENT_PROCEDURE } from '../admissionData/AdmissionData';
-
-console.log(ENROLLMENT_PROCEDURE)
 function EnrollmentProcedure(props) {
     return (
         <div className="h-auto w-full pt-10 "  id='ep' >
