@@ -53,7 +53,12 @@ function Navigation(props) {
                                 </Link>
 
                             </ul>
+
+
+
                         </ol>
+
+
                         <li><Link to="/contacts"
                                   className="font-medium font-sans text-slate-600 hover:text-blue-500">Contacts</Link>
                         </li>

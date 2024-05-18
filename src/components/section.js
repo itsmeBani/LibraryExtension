@@ -5,6 +5,7 @@ import Home from "../pages/home";
 import Contacts from "../pages/contacts";
 import  Enrollment from "../pages/EnrollmentProcedure";
 import AdmissionRequirements from "../pages/AdmissionRequirements";
+
 function Section() {
     return (
 
@@ -16,6 +17,7 @@ function Section() {
             <Route path="/contacts" element={<Contacts />}></Route>
             <Route path="/EnrollmentProcedure" element={<Enrollment/>}></Route>
             <Route path="/AdmissionRequirements" element={<AdmissionRequirements/>}></Route>
+
         </Routes>
 
         </section>
