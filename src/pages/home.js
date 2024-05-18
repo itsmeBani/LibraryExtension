@@ -14,14 +14,14 @@ function Home(props) {
 
     useEffect(()=>{
 
-        setTimeout(function () {
-                const newIndex = (currentIndex + 1) % images.length;
-                setCurrentIndex(newIndex);
-            }
+        const interval = setInterval(() => {
+            const newIndex = (currentIndex + 1) % images.length;
+            setCurrentIndex(newIndex);
+        }, 5000);
 
-        ,5000)
 
-    },[currentIndex])
+        return () => clearInterval(interval);
+    },[currentIndex,images.length])
 
 
     const nextSlide = () => {
