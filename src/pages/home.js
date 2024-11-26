@@ -14,13 +14,13 @@ function Home(props) {
 
     useEffect(()=>{
 
-        const interval = setInterval(() => {
+        const interval = setTimeout(() => {
             const newIndex = (currentIndex + 1) % images.length;
             setCurrentIndex(newIndex);
         }, 5000);
 
 
-        return () => clearInterval(interval);
+        return () => clearTimeout(interval);
     },[currentIndex,images.length])
 
 
@@ -82,8 +82,7 @@ function Home(props) {
 
 
             </div>
-            {/*<button onClick={nextSlide}>Next</button>*/}
-            {/*<button onClick={prevSlide}>Prev</button>*/}
+
             <div className="px-20  max-[800px]:px-2 max-[800px]:pb-3">
                 <h1 className="text-2xl  max-[900px]:text-xs font-bold text-slate-900 text-center pt-6  opacity-90 tracking ">Welcome
                     to <span className="text-yellow-400 opacity-100">Ilocos Sur Polytechnic State College!</span> Get
