@@ -57,12 +57,8 @@ function Contacts(props) {
                         <h1 className="text-xl text-slate-800 opacity-70 font-thin mb-3 ">Developer</h1>
                         <p className={styles}><img src={Call} alt="" className="h-5  opacity-60"/>09107645918</p>
                         <p className={styles}><img src={Email} alt="" className="h-5 opacity-60"/> <a
-                            href="mailto:fabrojiovani1@gmail.com"
-                            className="text-blue-500 hover:text-blue-900  truncate w-full ">fabrojiovani1@gmail.com</a></p>
-                        <p className={styles}><img src={Messenger} alt="" className="h-5 opacity-60"/> <a
-                            href="https://www.messenger.com/t/100018577027263" className="text-blue-500  truncate w-full hover:text-blue-900">https://www.messenger.com/t/100018577027263</a></p>
-                        <p className={styles}><img src={Github} alt="" className="h-5 opacity-60"/> <a
-                            href="https://github.com/Bani69" className="text-blue-500  truncate w-full hover:text-blue-900">https://github.com/Bani69</a></p>
+                            href="mailto:ballesterosbaldwinnico13@gmail.com"
+                            className="text-blue-500 hover:text-blue-900  truncate w-full ">ballesterosbaldwinnico13@gmail.com</a></p>
 
                     </div>
                 </div>
